@@ -11,7 +11,7 @@ The Smart Medibox is an intelligent system designed to protect temperature-sensi
 
 ## Demo
 
-You can view the project simulation on Wokwi: [Wokwi Simulation]([https://wokwi.com/projects/your-simulation-link](https://wokwi.com/projects/397634163544306689))
+You can view the project simulation on Wokwi: [Wokwi Simulation] ([https://wokwi.com/projects/your-simulation-link](https://wokwi.com/projects/397634163544306689))
 
 ## Node-RED Dashboard
 
