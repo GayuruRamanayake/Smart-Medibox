@@ -23,7 +23,7 @@ The Node-RED dashboard offers an intuitive interface to interact with the Medibo
 - **Manual Control**: Users can manually open or close the sliding window.
 
 <!-- Add Node-RED dashboard screenshot here -->
-![Node-RED Dashboard](path-to-your-dashboard-image)
+![Node-RED Dashboard](https://github.com/GayuruRamanayake/Smart-Medibox/blob/main/images/noderedDashboard.png)
 
 ## System Components
 
