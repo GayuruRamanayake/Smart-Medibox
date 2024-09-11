@@ -61,7 +61,7 @@ The circuit is built and simulated on the Wokwi platform. You can access it usin
 ## Screenshots
 
 <!-- Add relevant screenshots of the Wokwi circuit and Node-RED dashboard -->
-![Wokwi Circuit](path-to-your-wokwi-circuit-image)
+![Wokwi Circuit](https://github.com/GayuruRamanayake/Smart-Medibox/blob/main/images/noderedDashboard.png)
 ![Node-RED Flow](path-to-your-node-red-flow-image)
 
 ## License
