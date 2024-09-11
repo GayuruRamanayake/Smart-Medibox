@@ -1,80 +1,69 @@
 # Smart Medibox
 
-The **Smart Medibox** is an intelligent system designed to enhance the storage and management of medicines. It monitors light intensity inside the box and automatically adjusts a sliding window to protect light-sensitive medications. The system is controlled via a user-friendly Node-RED dashboard that allows both manual and automatic control options.
+The Smart Medibox is an intelligent system designed to protect temperature-sensitive medications by automatically adjusting the exposure to light. It monitors the light intensity inside the box and controls a sliding window using a servo motor, which adjusts based on predefined light thresholds.
 
-![Smart Medibox](path-to-image) <!-- Replace this with the actual image path -->
+## Project Features
 
-## Key Features
+- Real-time light intensity monitoring
+- Automated sliding window control based on light conditions
+- User-configurable light thresholds
+- Manual control option via Node-RED dashboard
 
-- **Light Intensity Monitoring**: Continuously monitors light conditions inside the Medibox to protect medications from excessive light exposure.
-- **Servo-Controlled Sliding Window**: Automatically adjusts the window to regulate light exposure based on the monitored conditions.
-- **Node-RED Dashboard**: Provides real-time monitoring, manual control, and threshold configuration for automating the sliding window.
-- **Automation**: Ensures light-sensitive medications are always stored in optimal conditions.
+## Demo
 
-## System Overview
-
-### Hardware Components:
-- **Light Sensor**: Measures the light intensity inside the Medibox.
-- **Servo Motor**: Controls the sliding window based on light sensor data.
-- **Microcontroller (Arduino/ESP32)**: Processes sensor data and controls the servo motor.
-
-### Software Components:
-- **Node-RED Dashboard**: A web-based interface to control and monitor the Medibox. It allows users to:
-  - Monitor the real-time light intensity.
-  - Set desired light threshold levels.
-  - Manually control the sliding window.
-- **Arduino Code**: Connects the microcontroller to the light sensor and servo motor, enabling the automatic adjustment of the window.
-
-
-## Getting Started
-
-Follow these instructions to set up and run the Smart Medibox system.
-
-### Prerequisites
-
-- **Hardware**:
-  - Light sensor (LDR or any suitable sensor).
-  - Servo motor.
-  - Microcontroller (Arduino, ESP32).
-  - Jumper wires and other necessary connections.
-
-- **Software**:
-  - [Node-RED](https://nodered.org) installed on your computer or Raspberry Pi.
-  - [Arduino IDE](https://www.arduino.cc/en/software) or [PlatformIO](https://platformio.org/) for uploading code to the microcontroller.
-
-## Setup
-
-### Hardware Setup:
-
-1. **Connect the Light Sensor and Servo Motor**:
-   - Connect the light sensor and servo motor to the microcontroller as shown in the circuit diagram (available in the `images` folder).
-   
-2. **Upload the Code**:
-   - Upload the code in the `arduino-code` directory to your microcontroller using Arduino IDE or PlatformIO.
-
-### Node-RED Setup:
-
-1. **Import the Node-RED Flow**:
-   - Import the provided Node-RED flow from the `node-red-flows` directory into your Node-RED instance.
-   
-2. **Start the Node-RED Service**:
-   - Start your Node-RED service and navigate to the dashboard to control and monitor the Medibox.
-
-### Run the System:
-
-1. **Monitor the System**:
-   - Monitor the light intensity in real-time via the dashboard and let the system automatically control the sliding window.
+You can view the project simulation on Wokwi: [Wokwi Simulation](https://wokwi.com/projects/your-simulation-link)
 
 ## Node-RED Dashboard
 
 The Node-RED dashboard offers an intuitive interface to interact with the Medibox.
 
-### Dashboard Features:
+**Dashboard Features:**
+
 - **Real-Time Monitoring**: Displays the current light intensity inside the box.
 - **Threshold Settings**: Allows users to configure light thresholds for automatic window control.
 - **Manual Control**: Users can manually open or close the sliding window.
 
-![Dashboard Screenshot](path-to-dashboard-image) <!-- Replace this with the actual dashboard image path -->
+<!-- Add Node-RED dashboard screenshot here -->
+![Node-RED Dashboard](path-to-your-dashboard-image)
 
+## System Components
 
+1. **Light Sensor**: Measures light intensity inside the Medibox.
+2. **Servo Motor**: Controls the sliding window to regulate light exposure.
+3. **Node-RED**: Provides a user interface for real-time monitoring and control.
+4. **Wokwi Simulation**: The circuit is designed and simulated using the Wokwi platform.
 
+## How to Run the Project
+
+### 1. Wokwi Circuit Setup
+
+The circuit is built and simulated on the Wokwi platform. You can access it using the following link:
+
+[Wokwi Simulation](https://wokwi.com/projects/your-simulation-link)
+
+### 2. Node-RED Setup
+
+1. Import the provided Node-RED flow from the `node-red-flows` directory into your Node-RED instance.
+2. Start your Node-RED service and navigate to the dashboard to control and monitor the Medibox.
+
+### 3. Run the System
+
+- Monitor the light intensity in real-time via the Node-RED dashboard.
+- The system will automatically control the sliding window based on light thresholds.
+- Optionally, manually open or close the sliding window from the dashboard.
+
+## Future Enhancements
+
+- **Temperature Sensor Integration**: Add temperature monitoring to further protect medications.
+- **Mobile App Interface**: Develop a mobile app for remote control and monitoring.
+- **Alert Notifications**: Implement notifications via email or SMS for threshold breaches.
+
+## Screenshots
+
+<!-- Add relevant screenshots of the Wokwi circuit and Node-RED dashboard -->
+![Wokwi Circuit](path-to-your-wokwi-circuit-image)
+![Node-RED Flow](path-to-your-node-red-flow-image)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
